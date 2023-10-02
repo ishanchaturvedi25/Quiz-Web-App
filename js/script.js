@@ -45,11 +45,11 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = () => {
     quiz_box.classList.add("activeQuiz");
     result_box.classList.remove("activeResult");
-    let que_count = 0;
-    let que_numb = 1;
-    let timeValue = 15;
-    let widthValue = 0;
-    let userScore = 0;
+    que_count = 0;
+    que_numb = 1;
+    timeValue = 15;
+    widthValue = 0;
+    userScore = 0;
     showQuestions(que_count);
     queCounter(que_numb);
     clearInterval(counter);
